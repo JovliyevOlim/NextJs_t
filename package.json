@@ -6,14 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next build && next export",
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-alpha.23",
+    "mongodb": "^6.6.1",
     "next": "14.2.3",
+    "next-auth": "^4.24.7",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "sass": "^1.77.1",
+    "styled-components": "^6.1.11",
+    "swr": "^2.2.5",
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "^18.3.1",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.3"
   }
